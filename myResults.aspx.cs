@@ -46,7 +46,7 @@ public partial class myResults : System.Web.UI.Page
         }
         if (calculatorFunctions.theMarkForMaths >= 80 && calculatorFunctions.theMarkForMaths <= 100)
         {
-            toReturn = toReturn + 8;
+            toReturn = toReturn + 80;
         }
 
         if (calculatorFunctions.theMarkForPhysicalSciences >= 50 && calculatorFunctions.theMarkForPhysicalSciences <= 59)
